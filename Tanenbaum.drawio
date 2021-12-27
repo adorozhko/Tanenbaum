@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T04:05:48.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="RenMSI5KJA4q3AjVF7-A" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T12:16:28.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="cm5XJkMq4suMdk2Vksst" version="16.1.0" type="github">
   <diagram id="5aGI3u4Uk3V0lVAwT1QT" name="Page-1">
-    <mxGraphModel dx="1619" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1688" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,14 +115,25 @@
         <mxCell id="O4TkIy4pa-xYhpApQaXB-26" value="Уровень -1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-800" y="645" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="O4TkIy4pa-xYhpApQaXB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4TkIy4pa-xYhpApQaXB-28" target="O4TkIy4pa-xYhpApQaXB-21">
+        <mxCell id="O4TkIy4pa-xYhpApQaXB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4TkIy4pa-xYhpApQaXB-28" target="O4TkIy4pa-xYhpApQaXB-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4TkIy4pa-xYhpApQaXB-28" value="Его электронные схемы исполняют машинно-зависимые программы уровня 1.&lt;br&gt;На Цифровом логическом уровне объекты называются вентилями" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="530" width="320" height="60" as="geometry" />
+        <mxCell id="O4TkIy4pa-xYhpApQaXB-28" value="	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Его электронные схемы исполняют машинно-зависимые программы уровня 1.&lt;br&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;На Цифровом логическом уровне объекты называются вентилями. Хотя вентили строятся из аналоговых компонентов (таких как транзисторы), они могут быть точно смоделированы как цифровые устройства. У каждого вентиля есть одно или несколько цифровых входных данных (сигналов, представляющих 0 или 1). Вентиль вычисляет простые функции этих сигналов, такие как И или ИЛИ.&lt;br&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Каждый вентиль формируется из нескольких транзисторов. Несколько вентилей формируют 1 бит памяти, который может содержать 0 или 1. Биты памяти, объединенные в группы, например, по 16, 32 или 64, формируют &lt;b&gt;регистры&lt;/b&gt;. Каждый регистр может содержать одно двоичное число в определенном диапазоне. Из вентилей также может строиться само ядро вычислительной системы." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="720" width="600" height="160" as="geometry" />
         </mxCell>
         <mxCell id="O4TkIy4pa-xYhpApQaXB-31" value="Транзисторы (примитивы)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-630" y="590" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O4TkIy4pa-xYhpApQaXB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4TkIy4pa-xYhpApQaXB-35" target="O4TkIy4pa-xYhpApQaXB-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="960" />
+              <mxPoint x="-80" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O4TkIy4pa-xYhpApQaXB-35" value="&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;На этом уровне находятся наборы из (обычно) 8 или 32 регистров, которые формируют локальную память и схему, называемую&amp;nbsp;&lt;b&gt;АЛУ (арифметико-логическое устройство)&lt;/b&gt;. АЛУ исполняет простые арифметические операции. Регистры вместе с АЛУ формируют &lt;b&gt;тракт данных&lt;/b&gt;, по которому поступают данные. Базовая операция тракта данных выполняется следующим образом: выбирается один или два регистра, АЛУ производит над ними какую-либо операцию (например сложение), после чего результат вновь помещается в какой-либо регистр.&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;На некоторых машинах работа тракта данных конктролируется особой программой, которая называется &lt;b&gt;микропрограммой&lt;/b&gt;. На других машинах тракт данных управляется напрямую аппаратными средствами.&lt;br&gt;&lt;span&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;На машинах, где тракт данных контролируется программным обеспечением, микропрограмма - это интерпретатор для команд на уровне 2. Микропрограмма читает команды из памяти и исполняет их одну за другой, использую при этом тракт данных. Например, при исполнении команды ADD она вызывается из памяти, ее операнды помещаются в регистры, АЛУ вычисляет сумму, а затем результат направляется туда, где он должен находиться. На компьютере с аппаратным управлением тракта данных происходит такая же процедура, но при этом нет программы, интерпретирующей команды уровня 2.&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="920" width="600" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
